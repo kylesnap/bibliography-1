@@ -1,0 +1,56 @@
+body {
+	overflow: hidden;
+}
+#main {
+	height: auto;
+}
+#sidebar {
+	float: left;
+	border-right: 3px solid;
+	z-index: 10;
+	height: 100vh;
+	width: 250px;
+	position: sticky;
+	overflow: auto;
+	margin-bottom: 0;
+}
+#content {
+	position: absolute;
+	left: 265px;
+	height: 100%;
+	float: left;
+	overflow: auto;
+	margin-bottom: 0;
+}
+#header {
+	position: relative;
+	float: left;
+}
+#material {
+	position: relative;
+	float: left;
+}
+/*styles !*/
+
+h1, h3, h4 {
+	font-family: 'Work Sans', serif;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+}
+material-icons {
+	font-size: 1em;
+	text-align: center;
+}
+a.button:link {
+	color: black;
+}
+a.button:hover {
+	color: blue
+}
+hr {
+	border-top: 3px double #8c8b8b;
+	position: relative;
+	right: 3px;
+}
